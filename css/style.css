@@ -40,11 +40,11 @@ z-index:1000;
 .logo{
 font-size:30px;
 font-weight:700;
-color:#fff;
+color:#1c4999;
 }
 
 .logo span{
-color:#ff3b30;
+color:#146835;
 }
 
 nav{
@@ -60,7 +60,7 @@ transition:.3s;
 }
 
 nav a:hover{
-color:#ff3b30;
+color:#1c4999;
 }
 
 #menu-btn{
@@ -71,7 +71,7 @@ cursor:pointer;
 
 .btn{
 padding:12px 28px;
-background:#ff3b30;
+background:#146835;
 color:#fff;
 text-decoration:none;
 border-radius:5px;
@@ -88,8 +88,8 @@ color:#111;
 
 .btn-outline{
 padding:12px 28px;
-border:2px solid #ff3b30;
-color:#fff;
+border:2px solid #146835;
+color:#146835;
 text-decoration:none;
 border-radius:5px;
 margin-left:15px;
@@ -98,7 +98,7 @@ display:inline-block;
 }
 
 .btn-outline:hover{
-background:#ff3b30;
+background:#1c4999;
 }
 
 /*==============================
@@ -107,9 +107,7 @@ HERO
 
 .hero{
 height:100vh;
-background:
-linear-gradient(rgba(0,0,0,.65),rgba(0,0,0,.7)),
-url("../images/hero.jpg") center/cover no-repeat;
+background:white center/cover no-repeat;
 display:flex;
 align-items:center;
 padding:0 8%;
@@ -127,7 +125,7 @@ margin-bottom:20px;
 
 .hero p{
 font-size:18px;
-color:#ddd;
+color:black;
 margin-bottom:35px;
 }
 
@@ -150,7 +148,7 @@ section h2::after{
 content:"";
 width:70px;
 height:4px;
-background:#ff3b30;
+background:#1c4999;
 position:absolute;
 left:50%;
 bottom:-15px;
@@ -178,12 +176,12 @@ text-align:center;
 
 .service-box:hover{
 transform:translateY(-10px);
-border-color:#ff3b30;
+border-color:#146835;
 }
 
 .service-box i{
 font-size:45px;
-color:#ff3b30;
+color:#146835;
 margin-bottom:20px;
 }
 
